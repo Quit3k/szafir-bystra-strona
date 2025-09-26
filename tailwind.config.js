@@ -19,8 +19,8 @@ export default {
         'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
       },
       fontSize: {
-        'clamp-6xl': 'clamp(2.5rem, 6vw, 3.75rem)', // Dla głównego nagłówka
-        'clamp-3xl': 'clamp(1.5rem, 4vw, 1.875rem)', // Dla podtytułu
+        'clamp-6xl': 'clamp(2.25rem, 5vw, 3.75rem)', // z 6vw na 5vw
+        'clamp-3xl': 'clamp(1.5rem, 3vw, 1.875rem)', // z 4vw na 3vw
       },
       keyframes: {
         fadeInUp: {
