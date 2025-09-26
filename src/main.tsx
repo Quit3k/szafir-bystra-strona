@@ -8,7 +8,8 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* ZMIANA: Dodajemy 'basename', aby router działał poprawnie na GitHub Pages */}
+    <BrowserRouter basename="/szafir-bystra-strona">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/polityka-prywatnosci" element={<PrivacyPolicyPage />} />
