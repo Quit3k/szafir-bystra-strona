@@ -2,7 +2,7 @@
   "name": "szafir-bystra-final",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Quit3k.github.io/szafir-bystra-strona",
+  "homepage": "https://szafirbystra.pl",
   "type": "module",
   "scripts": {
     "dev": "vite",

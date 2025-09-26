@@ -4,7 +4,7 @@ import tailwindcss from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
 
 export default defineConfig({
-  base: '/szafir-bystra-strona/',
+  base: '/',
   plugins: [react()],
   css: {
     postcss: {
