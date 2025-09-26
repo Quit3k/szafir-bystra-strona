@@ -2,6 +2,13 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1400px', // ZMIANA: "xl" zaczyna się teraz od 1400px
+      '2xl': '1650px',
+    },
     extend: {
       colors: {
         gold: '#D4AF37',
